@@ -14,7 +14,7 @@ Flask API to solve hCaptcha challenges. Uses NopeCHA for image labeling and Play
 
 `python api.py`
 
-POST to `http://127.0.0.1:5000/solve` with JSON body `{"sitekey": "4c672d35-0701-42b2-88c3-78380b0db560", "rqdata": "optional"}`
+POST to `/solve` endpoint with JSON body `{"sitekey": "4c672d35-0701-42b2-88c3-78380b0db560", "rqdata": "rqdata"}`
 
 `{"success": "true", "token": "P0_eyJ...", "took": "14.32"}`
 
